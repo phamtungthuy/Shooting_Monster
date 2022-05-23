@@ -1,8 +1,10 @@
-1.	Hướng dẫn cách lấy file code.
+1.	Hướng dẫn cách lấy file code: ( Cài trên VS Code hệ điều hành WIndows)
 -	Bước 1: Chọn Fork ở góc trên bên phải để liên kết nơi lưu trữ này đến tài khoản của bạn.
 -	Bước 2: Đến thư mục bạn muốn lưu trữ, nhấn chuột phải chọn terminal hoặc gitBash xong gõ câu lệnh:
 -	git clone https://github.com/[YOUR_USERNAME]/SHOOTING_GAME.git
 -	Bước 3: Thoát cửa sổ lệnh. Giờ đây file đã được copy vào nơi lưu trữ của bạn.
+-	Bước 4: Cài các thư viện SDL2.0, SDL_image, SDL_TTF, Mingw64 (Tham khảo cách cài SDL_2.0 tại đây:https://pie-cheque-188.notion.site/C-i-t-h-a-C-Windows-ef0a99a8dcae4dae86a39dc1cbc35980)(Tương tự với các thư viện còn lại)
+-	Bước 5: Cách chạy game: bật terminal gõ câu lệnh "mingw32-make" để dịch sau đó gõ câu lệnh ".\main.exe" để thưởng thức game.
 
 2.	Mô tả Game:
 -	Trò chơi tương tự như game Contra cổ điển nhưng đơn giản hơn.
